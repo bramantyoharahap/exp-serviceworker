@@ -1,12 +1,12 @@
 const cacheKey = 'myCache-v1';
 const RUNTIME = 'runtime';
 const preCacheAssets = [
-    '/',
-    'index.html',
-    '/css/main.css',
-    '/images/image1.png',
-    '/js/jquery.min.js',
-    '/js/main.js'
+    'exp-serviceworker/',
+    'exp-serviceworker/index.html',
+    'exp-serviceworker/css/main.css',
+    'exp-serviceworker/images/image1.png',
+    'exp-serviceworker/js/jquery.min.js',
+    'exp-serviceworker/js/main.js'
 ]
 self.addEventListener('install', (event) => {
     event.waitUntil(
